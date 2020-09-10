@@ -3,7 +3,7 @@ let b = 4;
 let c = 10;
 console.log("a =", a, ",b =", b);
 b = c;
-let cona = console.log(a + b);
+let cona = a + b;
 console.log(cona);
 console.log(typeof a);
 
