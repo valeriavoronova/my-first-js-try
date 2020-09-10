@@ -9,8 +9,23 @@ console.log(typeof a);
 
 let e = 10;
 
-let d = 'Oн сказал ${e} раз Привет'
+let d = `Oн сказал ${e} раз Привет`
 
 
 console.log(d);
 console.log(typeof d);
+
+let carOne = {
+    color: 'green'
+}
+
+let carTwo = {
+    color: 'red'
+}
+
+console.log(carOne, carTwo);
+
+// carOne["color"] = carTwo["color"];
+carOne = carTwo;
+
+console.log(carOne)
